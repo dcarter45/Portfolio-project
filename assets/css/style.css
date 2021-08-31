@@ -207,66 +207,58 @@ z-index: 10;
 }
 
 
-
-
-/* section p{
-    display: flex;
-    justify-content: center;
-    margin: 5px 5px 10px 5px ;
-} */
-
-/* services i've done */
-
-
-.services-container h3{
-    font-size: 55px;
-    color: black;
-    text-align: center;
-   padding-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 400;
-    
+/* cases */
+.projects{
+    background-color: black;
 }
-.services-container h3:hover{
-    color: #5ab9ea;;
-    cursor: pointer;
-}
-
-/* images */
-.images{
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    padding:5px;
-    padding-bottom: 10px;
-    width: auto;
-}
-
-
-.images h1{
-    padding:0px 0px 30px 0;
-    text-decoration: none;
-    list-style: none;
-}
-
-.images img{
-    width:33%;
-    border:none;
-    border-radius: 50%;  
-}
-
-.image-1:hover,
-.image-2:hover,
-.image-3:hover,
-.image-4:hover,
-.image-5:hover,
-.image-6:hover{
+.projects img:hover{
     opacity: 0.7;
-    cursor: pointer;
+}
+img, svg{
+    padding-bottom: 5px;
+}
+.column img{
+    padding-top: 50px;
+    
+   
+}
+/* section header*/
+
+.section-header{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section-padding{
+    padding: 20px 20px 40px;
+}
+
+/*flex grid*/
+
+.flex-grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+
+.flex-grid .column{
+   flex: 25%; 
+   max-width: 25%;
+   padding:0 5px ;
 }
 
 
+
+
+
+.icon-link-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* footer */
 .footer-container{
     background-color: gray;
@@ -295,4 +287,6 @@ z-index: 10;
     .navbar-content li{
         padding-bottom: 10px;
     }
-  } */
+   
+  } 
+
