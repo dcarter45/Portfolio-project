@@ -50,6 +50,14 @@ img{
     }
 }
 
+.about-me{
+    color: white;
+}
+
+.my-portfolio-heading{
+    color: white;
+}
+
 .about-me-p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -57,6 +65,7 @@ img{
     min-height: 520px;
     max-height: 520px;
     overflow: auto;
+    color: white;
 }
 
 .about-me-p::-webkit-scrollbar {
@@ -91,6 +100,9 @@ img{
 }
 
 .navbar a:hover {
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
     border-bottom: red 2px solid;
 }
 
@@ -106,6 +118,7 @@ img{
 .navbar,i{
     color: white;
 }
+
 
 
 /* header
@@ -260,16 +273,12 @@ img, svg{
     justify-content: center;
 }
 /* footer */
-.footer-container{
-    background-color: gray;
-}
 
-.footer-container h2, .footer-container h1{
-   text-align: center;
-   text-decoration: underline 1px solid;
-   color: black;
-   margin: 5px auto;
-} 
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
 
 @media only screen and (max-width: 768px) {
     .navbar-content {
@@ -290,3 +299,10 @@ img, svg{
    
   } 
 
+
+/* AAA */
+
+.fa-github,.fa-linkedin,.fa-file-pdf{
+    color: blue;
+ 
+}
