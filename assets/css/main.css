@@ -51,7 +51,7 @@ img{
 }
 
 .about-me{
-    color: white;
+    color: black;
 }
 
 .my-portfolio-heading{
@@ -66,7 +66,7 @@ img{
     min-height: 520px;
     max-height: 520px;
     /* overflow: auto; */
-    color: white;
+    color: black;
 }
 
 .about-me-p::-webkit-scrollbar {
@@ -181,7 +181,7 @@ z-index: 10;
 .about-me-container {
     width: 100%;
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: whitesmoke;
     padding-top: 1em;
 }
 
@@ -315,8 +315,9 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    background-color: black
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: whitesmoke
 }
 
 .glide__slide img{
