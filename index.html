@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/glider.theme.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/glider.core.min.css">
     <link rel="stylesheet" href="./assets/css/utilities.css">
+  
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+   
     <script src="https://use.fontawesome.com/f7e5252853.js"></script>
-    
 
-
-
-    
 
 
     
@@ -65,40 +68,25 @@
 
 
  <!-- glide section -->
- 
-
- 
- 
-    <!-- Main section -->
- <section id="projects" class="projects flex-grid section-padding">
-    <header class="section-header">
-        <h4 class="my-portfolio-heading">My Portfolio</h4>
-        
-        <div class="row">
-            <div class="column">
-              <a href="https://dcarter45.github.io/password-generator/"> <img src="./assets/images/password generator.png" alt="">Password Generator 
-                <a href="https://dcarter45.github.io/Daily-planner/"><img src="./assets/images/daily planner.png" alt=""> Daily Planner</img></a>
-                
-            
-            </div>
-            <div class="column">
-                <a href="https://tranquil-cove-04314.herokuapp.com/"> <img src="./assets/images/note taker.PNG" alt="">Note Taker 
-                    <a href="https://dcarter45.github.io/Weather-api/"><img src="./assets/images/weather dashboard.PNG" alt=""> Weather Dashboard</img></a>
-            </div>
-            <div class="column">
-                <a href="https://dcarter45.github.io/Daily-planner/"> <img src="./assets/images/shutterstock_1449924503.jpg" alt="">Daily Planner 
-                    <a href="https://dcarter45.github.io/Daily-planner/"><img src="./assets/images/shutterstock_1449924503.jpg" alt=""> Daily Planner</img></a>
-            </div>
-            <div class="column">
-                <a href="https://dcarter45.github.io/password-generator/"> <img src="./assets/images/shutterstock_1449924503.jpg" alt="">Password Generator 
-                    <a href="https://dcarter45.github.io/Daily-planner/"><img src="./assets/images/shutterstock_1449924503.jpg" alt=""> Daily Planner</img></a>
-            </div>
+ <div class="containerss">
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides slick-list">
+            <li class="glide__slide .slick-slide"><img src="/assets/images/note taker.PNG"><a href="https://tranquil-cove-04314.herokuapp.com/"><h1 class="caption">Note Taker </h1></a></li>
+            <li class="glide__slide .slick-slide"><img src="/assets/images/daily planner.png"><a href="https://dcarter45.github.io/Daily-planner/"><h1 class="caption">Daily Planner</h1></a></li>
+            <li class="glide__slide .slick-slide"><img src="/assets/images/password generator.png"><a href="https://dcarter45.github.io/password-generator/"><h1 class="caption">Password Generator </h1></a></li>
+            <li class="glide__slide .slick-slide"><img src="/assets/images/weather dashboard.PNG"><a href="https://tranquil-cove-04314.herokuapp.com/"><h1 class="caption">Weather Dashboard </h1></a></li>
+          </ul>
         </div>
-        </header>
-</section>
 
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><p class="prev">prev</p></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><p class="prev">Next</p></button>
+          </div>
 
-
+      </div>
+    </div>
+</div>
 
 
 <footer class="container-fluid bg-grey py-5">
@@ -108,7 +96,7 @@
              <div class="row">
                 <div class="col-md-6 ">
                    <div class="logo-part">
-                      <img src="/assets/images/IMG_2083.jpg" class="w-50 logo-footer" >
+                      <img src="/assets/images/wedding photo.jpg" class="w-50 logo-footer" >
                       
                       
                    </div>
@@ -125,7 +113,7 @@
                    </p>
                    
 
-                   <h2><a href="https://github.com/dcarter45"alt="github" > <i class="fab fa-github"></i></i></a></h2>
+    <h2><a href="https://github.com/dcarter45"alt="github" > <i class="fab fa-github"></i></i></a></h2>
     <h2><a href="https://www.linkedin.com/in/darrell-carter-5030a3a9/" alt="Linked in" > <i class="fab fa-linkedin"></i></i></a></h2>
     <h2><a href="https://drive.google.com/file/d/17p_1-1zqSd7TSIlzVH5wP2gSJcoUQLiC/view?usp=sharing" alt="resume" > <i class="fas fa-file-pdf"></i></i></a></h2>
                    
@@ -144,11 +132,12 @@
                     <li><a href="#contact" >Contact</a></li>
 
                    </div>
+
                    <form class="form-footer my-3">
                       <input type="text"  placeholder="search here...." name="search">
                       <input type="button" value="Go" >
                    </form>
-                   
+
                 </div>
              </div>
           </div>
@@ -158,8 +147,38 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script src="./assets/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  
+
+
+    <script>
+        var input = document.querySelector('#options-gap-input')
+        const config={
+            
+          type: 'carousel',  
+          perView:3,
+        
+          
+        
+          breakpoints:{
+              1024:{
+                  perView:2,
+                  
+              },
+              600:{
+                  perView:1,
+                  gap:10
+                  
+              }
+            
+          }
+        }
+        new Glide('.glide', config).mount()
+      </script>
+      
+      
+
+
 </body>
 </html>
