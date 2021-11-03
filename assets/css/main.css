@@ -59,12 +59,13 @@ img{
 }
 
 .about-me-p {
+    font-size: 22px;
     margin-top: 0;
     margin-bottom: 1rem;
     padding: 1em 5em 0em 0em;
     min-height: 520px;
     max-height: 520px;
-    overflow: auto;
+    /* overflow: auto; */
     color: white;
 }
 
