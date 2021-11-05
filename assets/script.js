@@ -1,7 +1,7 @@
 var generateBTN = document.getElementById('generateBTN');
 
 
-const authors = Object.keys(quotes);
+
 
 
 
